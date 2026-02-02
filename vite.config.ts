@@ -7,7 +7,7 @@
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
   export default defineConfig({
-base: '/CRUNCHBURGERS/',
+    base: '/CRUNCHBURGERS/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
